@@ -1,0 +1,442 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|c:\\users\\alexl\\downloads\\2mailaerronka1-csharp-chat-implementado\\2mailaerronka1-csharp-main\\tpv\\ui\\chat-a\\txatbezeroa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\ui\\chat-a\\txatbezeroa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|c:\\users\\alexl\\downloads\\2mailaerronka1-csharp-chat-implementado\\2mailaerronka1-csharp-main\\tpv\\ui\\chat-a\\txatkontrola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\ui\\chat-a\\txatkontrola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|c:\\users\\alexl\\downloads\\2mailaerronka1-csharp-chat-implementado\\2mailaerronka1-csharp-main\\tpv\\ui\\login.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\ui\\login.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|c:\\users\\alexl\\downloads\\2mailaerronka1-csharp-chat-implementado\\2mailaerronka1-csharp-main\\tpv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|c:\\users\\alexl\\downloads\\2mailaerronka1-csharp-chat-implementado\\2mailaerronka1-csharp-main\\tpv\\saioglobala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\saioglobala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|c:\\users\\alexl\\downloads\\2mailaerronka1-csharp-chat-implementado\\2mailaerronka1-csharp-main\\tpv\\ssltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\ssltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|c:\\users\\alexl\\downloads\\2mailaerronka1-csharp-chat-implementado\\2mailaerronka1-csharp-main\\tpv\\ui\\chat-a\\txatkontrola.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\ui\\chat-a\\txatkontrola.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|c:\\users\\alexl\\downloads\\2mailaerronka1-csharp-chat-implementado\\2mailaerronka1-csharp-main\\tpv\\ui\\chat-a\\txatkontrola.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\ui\\chat-a\\txatkontrola.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|c:\\users\\alexl\\downloads\\2mailaerronka1-csharp-chat-implementado\\2mailaerronka1-csharp-main\\tpv\\ui\\chat-a\\zifratzetresnak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\ui\\chat-a\\zifratzetresnak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|c:\\users\\alexl\\downloads\\2mailaerronka1-csharp-chat-implementado\\2mailaerronka1-csharp-main\\tpv\\dtoak\\aurrekoplatera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\dtoak\\aurrekoplatera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|c:\\users\\alexl\\downloads\\2mailaerronka1-csharp-chat-implementado\\2mailaerronka1-csharp-main\\tpv\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|c:\\users\\alexl\\downloads\\2mailaerronka1-csharp-chat-implementado\\2mailaerronka1-csharp-main\\tpv\\ui\\fakturak\\fakturasortu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\ui\\fakturak\\fakturasortu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|c:\\users\\alexl\\downloads\\2mailaerronka1-csharp-chat-implementado\\2mailaerronka1-csharp-main\\tpv\\modeloak\\zerbitzuak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\modeloak\\zerbitzuak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|c:\\users\\alexl\\downloads\\2mailaerronka1-csharp-chat-implementado\\2mailaerronka1-csharp-main\\tpv\\modeloak\\kategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\modeloak\\kategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|c:\\users\\alexl\\downloads\\2mailaerronka1-csharp-chat-implementado\\2mailaerronka1-csharp-main\\tpv\\modeloak\\platerenosagaiak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\modeloak\\platerenosagaiak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\tpv\\ui\\chat-a\\txatkontrola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\ui\\chat-a\\txatkontrola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|c:\\users\\alexl\\downloads\\2mailaerronka1-csharp-chat-implementado\\2mailaerronka1-csharp-main\\tpv\\ui\\zerbitzuak\\zerbitzuenegoera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\ui\\zerbitzuak\\zerbitzuenegoera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\tpv\\ui\\zerbitzuak\\zerbitzuenegoera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\ui\\zerbitzuak\\zerbitzuenegoera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|c:\\users\\alexl\\downloads\\2mailaerronka1-csharp-chat-implementado\\2mailaerronka1-csharp-main\\tpv\\ui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\ui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\tpv\\ui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\ui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|c:\\users\\alexl\\downloads\\2mailaerronka1-csharp-chat-implementado\\2mailaerronka1-csharp-main\\tpv\\ui\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\ui\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|c:\\users\\alexl\\downloads\\2mailaerronka1-csharp-chat-implementado\\2mailaerronka1-csharp-main\\tpv\\ui\\erreserbak\\erreserbaeditatu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\ui\\erreserbak\\erreserbaeditatu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|c:\\users\\alexl\\downloads\\2mailaerronka1-csharp-chat-implementado\\2mailaerronka1-csharp-main\\tpv\\dtoak\\zerbitzuaemaitzadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\dtoak\\zerbitzuaemaitzadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|c:\\users\\alexl\\downloads\\2mailaerronka1-csharp-chat-implementado\\2mailaerronka1-csharp-main\\tpv\\dtoak\\zerbitzuaeskariadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\dtoak\\zerbitzuaeskariadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|c:\\users\\alexl\\downloads\\2mailaerronka1-csharp-chat-implementado\\2mailaerronka1-csharp-main\\tpv\\modeloak\\zerbitzuxehetasunak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\modeloak\\zerbitzuxehetasunak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|c:\\users\\alexl\\downloads\\2mailaerronka1-csharp-chat-implementado\\2mailaerronka1-csharp-main\\tpv\\ziurtagiriak\\server.crt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5B8E67E7-5A8D-47ED-B853-1480EE71FED5}|TPV\\TPV.csproj|solutionrelative:tpv\\ziurtagiriak\\server.crt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\SslTest\\Program.cs",
+              "RelativeDocumentMoniker": "TPV\\SslTest\\Program.cs",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\SslTest\\Program.cs",
+              "RelativeToolTip": "TPV\\SslTest\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T12:49:27.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Login.cs",
+              "RelativeDocumentMoniker": "TPV\\UI\\Login.cs",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TPV\\UI\\Login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T14:49:06.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ErreserbaEditatu.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Erreserbak\\ErreserbaEditatu.Designer.cs",
+              "RelativeDocumentMoniker": "TPV\\UI\\Erreserbak\\ErreserbaEditatu.Designer.cs",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Erreserbak\\ErreserbaEditatu.Designer.cs",
+              "RelativeToolTip": "TPV\\UI\\Erreserbak\\ErreserbaEditatu.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T14:48:48.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FakturaSortu.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Fakturak\\FakturaSortu.Designer.cs",
+              "RelativeDocumentMoniker": "TPV\\UI\\Fakturak\\FakturaSortu.Designer.cs",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Fakturak\\FakturaSortu.Designer.cs",
+              "RelativeToolTip": "TPV\\UI\\Fakturak\\FakturaSortu.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T14:48:35.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TxatBezeroa.cs",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Chat-a\\TxatBezeroa.cs",
+              "RelativeDocumentMoniker": "TPV\\UI\\Chat-a\\TxatBezeroa.cs",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Chat-a\\TxatBezeroa.cs",
+              "RelativeToolTip": "TPV\\UI\\Chat-a\\TxatBezeroa.cs",
+              "ViewState": "AgIAAFQCAAAAAAAAAAAswFgCAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T14:40:40.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\Program.cs",
+              "RelativeDocumentMoniker": "TPV\\Program.cs",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\Program.cs",
+              "RelativeToolTip": "TPV\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T14:41:10.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TxatKontrola.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Chat-a\\TxatKontrola.Designer.cs",
+              "RelativeDocumentMoniker": "TPV\\UI\\Chat-a\\TxatKontrola.Designer.cs",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Chat-a\\TxatKontrola.Designer.cs",
+              "RelativeToolTip": "TPV\\UI\\Chat-a\\TxatKontrola.Designer.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:14:36.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\Properties\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "TPV\\Properties\\Resources.Designer.cs",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\Properties\\Resources.Designer.cs",
+              "RelativeToolTip": "TPV\\Properties\\Resources.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T14:41:32.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AurrekoPlatera.cs",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\DTOak\\AurrekoPlatera.cs",
+              "RelativeDocumentMoniker": "TPV\\DTOak\\AurrekoPlatera.cs",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\DTOak\\AurrekoPlatera.cs",
+              "RelativeToolTip": "TPV\\DTOak\\AurrekoPlatera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T14:41:27.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TxatKontrola.cs",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Chat-a\\TxatKontrola.cs",
+              "RelativeDocumentMoniker": "TPV\\UI\\Chat-a\\TxatKontrola.cs",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Chat-a\\TxatKontrola.cs",
+              "RelativeToolTip": "TPV\\UI\\Chat-a\\TxatKontrola.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwEcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:07:55.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.resx",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Login.resx",
+              "RelativeDocumentMoniker": "TPV\\UI\\Login.resx",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Login.resx",
+              "RelativeToolTip": "TPV\\UI\\Login.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-03-27T12:51:49.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ZifratzeTresnak.cs",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Chat-a\\ZifratzeTresnak.cs",
+              "RelativeDocumentMoniker": "TPV\\UI\\Chat-a\\ZifratzeTresnak.cs",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Chat-a\\ZifratzeTresnak.cs",
+              "RelativeToolTip": "TPV\\UI\\Chat-a\\ZifratzeTresnak.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T12:42:19.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SaioGlobala.cs",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\SaioGlobala.cs",
+              "RelativeDocumentMoniker": "TPV\\SaioGlobala.cs",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\SaioGlobala.cs",
+              "RelativeToolTip": "TPV\\SaioGlobala.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T14:41:04.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TxatKontrola.resx",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Chat-a\\TxatKontrola.resx",
+              "RelativeDocumentMoniker": "TPV\\UI\\Chat-a\\TxatKontrola.resx",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Chat-a\\TxatKontrola.resx",
+              "RelativeToolTip": "TPV\\UI\\Chat-a\\TxatKontrola.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-03-27T12:15:44.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "TPV\\UI\\Login.Designer.cs",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Login.Designer.cs",
+              "RelativeToolTip": "TPV\\UI\\Login.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T14:49:02.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TxatKontrola.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Chat-a\\TxatKontrola.cs",
+              "RelativeDocumentMoniker": "TPV\\UI\\Chat-a\\TxatKontrola.cs",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Chat-a\\TxatKontrola.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "TPV\\UI\\Chat-a\\TxatKontrola.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:14:33.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PlaterenOsagaiak.cs",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\MODELOAK\\PlaterenOsagaiak.cs",
+              "RelativeDocumentMoniker": "TPV\\MODELOAK\\PlaterenOsagaiak.cs",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\MODELOAK\\PlaterenOsagaiak.cs",
+              "RelativeToolTip": "TPV\\MODELOAK\\PlaterenOsagaiak.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:26:31.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Kategoria.cs",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\MODELOAK\\Kategoria.cs",
+              "RelativeDocumentMoniker": "TPV\\MODELOAK\\Kategoria.cs",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\MODELOAK\\Kategoria.cs",
+              "RelativeToolTip": "TPV\\MODELOAK\\Kategoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:26:32.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Zerbitzuak.cs",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\MODELOAK\\Zerbitzuak.cs",
+              "RelativeDocumentMoniker": "TPV\\MODELOAK\\Zerbitzuak.cs",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\MODELOAK\\Zerbitzuak.cs",
+              "RelativeToolTip": "TPV\\MODELOAK\\Zerbitzuak.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:26:33.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ZerbitzuenEgoera.cs",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Zerbitzuak\\ZerbitzuenEgoera.cs",
+              "RelativeDocumentMoniker": "TPV\\UI\\Zerbitzuak\\ZerbitzuenEgoera.cs",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Zerbitzuak\\ZerbitzuenEgoera.cs",
+              "RelativeToolTip": "TPV\\UI\\Zerbitzuak\\ZerbitzuenEgoera.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T14:49:18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ZerbitzuaEmaitzaDto.cs",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\DTOak\\ZerbitzuaEmaitzaDto.cs",
+              "RelativeDocumentMoniker": "TPV\\DTOak\\ZerbitzuaEmaitzaDto.cs",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\DTOak\\ZerbitzuaEmaitzaDto.cs",
+              "RelativeToolTip": "TPV\\DTOak\\ZerbitzuaEmaitzaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T14:41:26.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Login.cs",
+              "RelativeDocumentMoniker": "TPV\\UI\\Login.cs",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Login.cs",
+              "RelativeToolTip": "TPV\\UI\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T14:49:08.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ZerbitzuenEgoera.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Zerbitzuak\\ZerbitzuenEgoera.cs",
+              "RelativeDocumentMoniker": "TPV\\UI\\Zerbitzuak\\ZerbitzuenEgoera.cs",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\UI\\Zerbitzuak\\ZerbitzuenEgoera.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TPV\\UI\\Zerbitzuak\\ZerbitzuenEgoera.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T14:49:16.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ZerbitzuaEskariaDto.cs",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\DTOak\\ZerbitzuaEskariaDto.cs",
+              "RelativeDocumentMoniker": "TPV\\DTOak\\ZerbitzuaEskariaDto.cs",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\DTOak\\ZerbitzuaEskariaDto.cs",
+              "RelativeToolTip": "TPV\\DTOak\\ZerbitzuaEskariaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T14:41:24.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ZerbitzuXehetasunak.cs",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\MODELOAK\\ZerbitzuXehetasunak.cs",
+              "RelativeDocumentMoniker": "TPV\\MODELOAK\\ZerbitzuXehetasunak.cs",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\MODELOAK\\ZerbitzuXehetasunak.cs",
+              "RelativeToolTip": "TPV\\MODELOAK\\ZerbitzuXehetasunak.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T14:41:22.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "server.crt",
+              "DocumentMoniker": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\ziurtagiriak\\server.crt",
+              "RelativeDocumentMoniker": "TPV\\ziurtagiriak\\server.crt",
+              "ToolTip": "C:\\Users\\alexl\\Downloads\\2MailaErronka1-CSharp-chat-implementado\\2MailaErronka1-CSharp-main\\TPV\\ziurtagiriak\\server.crt",
+              "RelativeToolTip": "TPV\\ziurtagiriak\\server.crt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
+              "WhenOpened": "2026-03-25T14:41:14.589Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

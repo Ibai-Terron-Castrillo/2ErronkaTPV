@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="UI\Chat-a\TxatKontrola.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\Erreserbak\ErreserbaEditatu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\Erreserbak\ErreserbaGestionatu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\Erreserbak\ErreserbaSortu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\Fakturak\FakturaSortu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\Inbentarioa\InbentarioaKudeatu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\Zerbitzuak\ZerbitzuenEgoera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\Menuak\SukaldariMenua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\Menuak\ZerbitzariMenua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\Zerbitzuak\ZerbitzuaHasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\Zerbitzuak\ZerbitzuaKudeatu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\PlaterenOsagaiak\PlaterenOsagaiakIkusi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
