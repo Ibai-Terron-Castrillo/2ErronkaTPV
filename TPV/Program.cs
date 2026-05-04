@@ -20,6 +20,7 @@ namespace TPV
                 try { MessageBox.Show(e.ExceptionObject?.ToString() ?? "Errore ezezaguna", "Errorea", MessageBoxButtons.OK, MessageBoxIcon.Error); } catch { }
             };
             ApplicationConfiguration.Initialize();
+            EguraldiaZerbitzua.KargatuGaurkoEguraldia();
             Application.ApplicationExit += (_, _) => TxatBezeroa.Instantzia.Deskonektatu();
             Application.Run(new Login());
         }

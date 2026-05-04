@@ -11,8 +11,8 @@ namespace TPV
     public partial class Login : Form
     {
         private int saiakerak = 3;
+        //private readonly string apiUrl = "http://localhost:5093/api/Langileak";
         private readonly string apiUrl = "http://192.168.10.5:5093/api/Langileak";
-        // private readonly string apiUrl = "http://localhost:5093/api/Langileak";
 
         public Login()
         {

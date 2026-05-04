@@ -10,6 +10,10 @@ namespace TPV
         private TableLayoutPanel layoutNagusia;
         private TableLayoutPanel botoiLayout;
         private Panel headerPanel;
+        private Panel eguraldiaPanel;
+        private Label lblEguraldiaIzenburua;
+        private Label lblEguraldiaLaburpena;
+        private Label lblEguraldiaXehetasunak;
         private Button btnInbentarioaKudeatu;
         private Button btnPlaterenEgoera;
         private Button btnItzuli;
@@ -29,6 +33,10 @@ namespace TPV
             layoutNagusia = new TableLayoutPanel();
             botoiLayout = new TableLayoutPanel();
             headerPanel = new Panel();
+            eguraldiaPanel = new Panel();
+            lblEguraldiaIzenburua = new Label();
+            lblEguraldiaLaburpena = new Label();
+            lblEguraldiaXehetasunak = new Label();
             btnInbentarioaKudeatu = new Button();
             btnPlaterenEgoera = new Button();
             btnItzuli = new Button();
@@ -42,6 +50,36 @@ namespace TPV
             headerPanel.Dock = DockStyle.Top;
             headerPanel.Height = 90;
             headerPanel.Controls.Add(btnItzuli);
+
+            eguraldiaPanel.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            eguraldiaPanel.BackColor = Color.FromArgb(30, 30, 30);
+            eguraldiaPanel.Size = new Size(430, 72);
+            eguraldiaPanel.Location = new Point(18, 500);
+            eguraldiaPanel.Padding = new Padding(12, 7, 12, 7);
+            eguraldiaPanel.Controls.Add(lblEguraldiaXehetasunak);
+            eguraldiaPanel.Controls.Add(lblEguraldiaLaburpena);
+            eguraldiaPanel.Controls.Add(lblEguraldiaIzenburua);
+
+            lblEguraldiaIzenburua.AutoSize = false;
+            lblEguraldiaIzenburua.Dock = DockStyle.Top;
+            lblEguraldiaIzenburua.Height = 20;
+            lblEguraldiaIzenburua.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            lblEguraldiaIzenburua.ForeColor = Color.Goldenrod;
+            lblEguraldiaIzenburua.Text = "Eguraldia";
+
+            lblEguraldiaLaburpena.AutoSize = false;
+            lblEguraldiaLaburpena.Dock = DockStyle.Top;
+            lblEguraldiaLaburpena.Height = 22;
+            lblEguraldiaLaburpena.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            lblEguraldiaLaburpena.ForeColor = Color.White;
+            lblEguraldiaLaburpena.Text = "Kargatzen...";
+
+            lblEguraldiaXehetasunak.AutoSize = false;
+            lblEguraldiaXehetasunak.Dock = DockStyle.Fill;
+            lblEguraldiaXehetasunak.Font = new Font("Segoe UI", 8.5F, FontStyle.Regular);
+            lblEguraldiaXehetasunak.ForeColor = Color.Gainsboro;
+            lblEguraldiaXehetasunak.Text = "";
+            lblEguraldiaXehetasunak.AutoEllipsis = true;
 
             btnItzuli.Text = "Zerbitzari Menua";
             btnItzuli.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
@@ -87,6 +125,7 @@ namespace TPV
 
             Controls.Add(layoutNagusia);
             Controls.Add(txatPanela);
+            Controls.Add(eguraldiaPanel);
 
             BackColor = Color.White;
             WindowState = FormWindowState.Maximized;

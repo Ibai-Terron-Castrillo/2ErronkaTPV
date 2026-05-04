@@ -34,7 +34,6 @@ namespace TPV
         private bool legacyModua;
         private CancellationTokenSource? cts;
         private string erabiltzaileIzena = "Anonimoa";
-        //private string hostaUnekoa = "localhost";
         private string hostaUnekoa = "192.168.10.5";
         private int portuaUnekoa = 5555;
         private bool zifratuta = true;
@@ -92,7 +91,6 @@ namespace TPV
             }
 
             this.erabiltzaileIzena = string.IsNullOrWhiteSpace(erabiltzaileIzena) ? "Anonimoa" : erabiltzaileIzena.Trim();
-            //hostaUnekoa = string.IsNullOrWhiteSpace(hosta) ? "localhost" : hosta.Trim();
             hostaUnekoa = string.IsNullOrWhiteSpace(hosta) ? "192.168.10.5" : hosta.Trim();
             portuaUnekoa = portua;
             zifratuta = true;
@@ -996,9 +994,54 @@ namespace TPV
             public string ReadJavaUtf()
             {
                 ushort utflen = ReadUInt16BigEndian();
-                if (utflen == 0) return "";
                 byte[] bytearr = ReadBytes(utflen);
-                return Encoding.UTF8.GetString(bytearr);
+
+                char[] chararr = new char[utflen];
+                int count = 0;
+                int chararrCount = 0;
+
+                while (count < utflen)
+                {
+                    int c = bytearr[count] & 0xFF;
+                    if (c > 127) break;
+                    count++;
+                    chararr[chararrCount++] = (char)c;
+                }
+
+                while (count < utflen)
+                {
+                    int c = bytearr[count] & 0xFF;
+                    switch (c >> 4)
+                    {
+                        case 0:
+                        case 1:
+                        case 2:
+                        case 3:
+                        case 4:
+                        case 5:
+                        case 6:
+                        case 7:
+                            count++;
+                            chararr[chararrCount++] = (char)c;
+                            break;
+                        case 12:
+                        case 13:
+                            count += 2;
+                            int char2 = bytearr[count - 1];
+                            chararr[chararrCount++] = (char)(((c & 0x1F) << 6) | (char2 & 0x3F));
+                            break;
+                        case 14:
+                            count += 3;
+                            int char3 = bytearr[count - 1];
+                            int char2b = bytearr[count - 2];
+                            chararr[chararrCount++] = (char)(((c & 0x0F) << 12) | ((char2b & 0x3F) << 6) | (char3 & 0x3F));
+                            break;
+                        default:
+                            return "";
+                    }
+                }
+
+                return new string(chararr, 0, chararrCount);
             }
 
             private ushort ReadUInt16BigEndian()
@@ -1024,7 +1067,7 @@ namespace TPV
 
             public static void WriteJavaUtf(Stream s, string value)
             {
-                byte[] encoded = Encoding.UTF8.GetBytes(value ?? "");
+                byte[] encoded = EncodeJavaModifiedUtf8(value ?? "");
                 if (encoded.Length > ushort.MaxValue)
                 {
                     throw new InvalidOperationException("Testua luzeegia da.");
@@ -1036,7 +1079,30 @@ namespace TPV
                 s.Write(encoded, 0, encoded.Length);
             }
 
-            
+            private static byte[] EncodeJavaModifiedUtf8(string str)
+            {
+                using var ms = new MemoryStream();
+                for (int i = 0; i < str.Length; i++)
+                {
+                    int c = str[i];
+                    if (c >= 0x0001 && c <= 0x007F)
+                    {
+                        ms.WriteByte((byte)c);
+                    }
+                    else if (c == 0 || c <= 0x07FF)
+                    {
+                        ms.WriteByte((byte)(0xC0 | ((c >> 6) & 0x1F)));
+                        ms.WriteByte((byte)(0x80 | (c & 0x3F)));
+                    }
+                    else
+                    {
+                        ms.WriteByte((byte)(0xE0 | ((c >> 12) & 0x0F)));
+                        ms.WriteByte((byte)(0x80 | ((c >> 6) & 0x3F)));
+                        ms.WriteByte((byte)(0x80 | (c & 0x3F)));
+                    }
+                }
+                return ms.ToArray();
+            }
         }
 
     }

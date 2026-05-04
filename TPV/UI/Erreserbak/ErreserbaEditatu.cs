@@ -15,8 +15,8 @@ namespace TPV.BISTAK
         private readonly int erreserbaId;
         private Erreserbak erreserba;
         private List<Mahaiak> mahaiaLista;
-        private const string ApiOinarria = "http://192.168.10.5:5093";
         // private const string ApiOinarria = "http://localhost:5093";
+        private const string ApiOinarria = "http://192.168.10.5:5093";
 
         public ErreserbaEditatu(int erreserbaIdPasatua)
         {

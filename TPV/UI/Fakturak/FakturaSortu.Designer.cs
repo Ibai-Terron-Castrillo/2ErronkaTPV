@@ -25,7 +25,6 @@ namespace TPV.BISTAK
             lblIzenburua = new Label();
             zerbitzuakPanel = new FlowLayoutPanel();
             lblMezua = new Label();
-
             layoutNagusia.SuspendLayout();
             headerPanel.SuspendLayout();
             zerbitzuakPanel.SuspendLayout();
@@ -39,7 +38,7 @@ namespace TPV.BISTAK
             layoutNagusia.Location = new Point(0, 0);
             layoutNagusia.Name = "layoutNagusia";
             layoutNagusia.RowCount = 2;
-            layoutNagusia.RowStyles.Add(new RowStyle(SizeType.Absolute, 90F));
+            layoutNagusia.RowStyles.Add(new RowStyle(SizeType.Absolute, 60F));
             layoutNagusia.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
             layoutNagusia.Size = new Size(900, 600);
             layoutNagusia.TabIndex = 0;
@@ -49,7 +48,7 @@ namespace TPV.BISTAK
             headerPanel.Dock = DockStyle.Fill;
             headerPanel.Location = new Point(3, 3);
             headerPanel.Name = "headerPanel";
-            headerPanel.Size = new Size(894, 84);
+            headerPanel.Size = new Size(894, 54);
             headerPanel.TabIndex = 0;
 
             lblIzenburua.Dock = DockStyle.Fill;
@@ -57,7 +56,7 @@ namespace TPV.BISTAK
             lblIzenburua.ForeColor = Color.Goldenrod;
             lblIzenburua.Location = new Point(0, 0);
             lblIzenburua.Name = "lblIzenburua";
-            lblIzenburua.Size = new Size(894, 84);
+            lblIzenburua.Size = new Size(894, 54);
             lblIzenburua.TabIndex = 0;
             lblIzenburua.Text = "Fakturak";
             lblIzenburua.TextAlign = ContentAlignment.MiddleCenter;
@@ -65,9 +64,9 @@ namespace TPV.BISTAK
             zerbitzuakPanel.AutoScroll = true;
             zerbitzuakPanel.Controls.Add(lblMezua);
             zerbitzuakPanel.Dock = DockStyle.Fill;
-            zerbitzuakPanel.Location = new Point(3, 93);
+            zerbitzuakPanel.Location = new Point(3, 63);
             zerbitzuakPanel.Name = "zerbitzuakPanel";
-            zerbitzuakPanel.Size = new Size(894, 504);
+            zerbitzuakPanel.Size = new Size(894, 534);
             zerbitzuakPanel.TabIndex = 1;
 
             lblMezua.Dock = DockStyle.Fill;

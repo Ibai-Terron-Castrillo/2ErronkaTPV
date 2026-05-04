@@ -12,8 +12,8 @@ namespace TPV.BISTAK
     public partial class InbentarioaKudeatu : Form
     {
         private readonly HttpClient bezeroa;
+        //private const string ApiOinarria = "http://localhost:5093";
         private const string ApiOinarria = "http://192.168.10.5:5093";
-        // private const string ApiOinarria = "http://localhost:5093";
         private List<Inbentarioa> inbentarioa;
         private readonly Dictionary<int, (decimal Kantitatea, DateTime Azkena)> aldaketak = new();
 
