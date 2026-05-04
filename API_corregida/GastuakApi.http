@@ -1,0 +1,6 @@
+@GastuakApi_HostAddress = http://localhost:5093
+
+GET {{GastuakApi_HostAddress}}/familia/
+Accept: application/json
+
+###

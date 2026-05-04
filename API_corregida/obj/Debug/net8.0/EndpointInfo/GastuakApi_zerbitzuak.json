@@ -1,0 +1,391 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Jatetxea API - Zerbitzuak",
+    "description": "Endpoints de la tabla Zerbitzuak",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Zerbitzuak": {
+      "get": {
+        "tags": [
+          "Zerbitzuak"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Zerbitzuak"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ZerbitzuakSortuDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ZerbitzuakSortuDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ZerbitzuakSortuDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Zerbitzuak/{id}": {
+      "get": {
+        "tags": [
+          "Zerbitzuak"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Zerbitzuak"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ZerbitzuakSortuDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ZerbitzuakSortuDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ZerbitzuakSortuDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Zerbitzuak"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Zerbitzuak/egin": {
+      "post": {
+        "tags": [
+          "Zerbitzuak"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ZerbitzuaEskariaDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ZerbitzuaEskariaDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ZerbitzuaEskariaDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Zerbitzuak/erreserba/{erreserbaId}/platerak": {
+      "get": {
+        "tags": [
+          "Zerbitzuak"
+        ],
+        "parameters": [
+          {
+            "name": "erreserbaId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Zerbitzuak/gaur": {
+      "get": {
+        "tags": [
+          "Zerbitzuak"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Zerbitzuak/egunekoak": {
+      "get": {
+        "tags": [
+          "Zerbitzuak"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Zerbitzuak/erreserba/{erreserbaId}": {
+      "get": {
+        "tags": [
+          "Zerbitzuak"
+        ],
+        "parameters": [
+          {
+            "name": "erreserbaId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Zerbitzuak/erreserba/{erreserbaId}/laburpena": {
+      "get": {
+        "tags": [
+          "Zerbitzuak"
+        ],
+        "parameters": [
+          {
+            "name": "erreserbaId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Zerbitzuak/{id}/egoera": {
+      "patch": {
+        "tags": [
+          "Zerbitzuak"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ZerbitzuEgoeraPatchDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ZerbitzuEgoeraPatchDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ZerbitzuEgoeraPatchDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "PlateraEskariaDto": {
+        "type": "object",
+        "properties": {
+          "plateraId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kantitatea": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ZerbitzuEgoeraPatchDto": {
+        "type": "object",
+        "properties": {
+          "egoera": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ZerbitzuaEskariaDto": {
+        "type": "object",
+        "properties": {
+          "langileId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "mahaiaId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "erreserbaId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "eskaeraData": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "platerak": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PlateraEskariaDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ZerbitzuakSortuDto": {
+        "type": "object",
+        "properties": {
+          "langileId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "mahaiaId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "erreserbaId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "eskaeraData": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "egoera": {
+            "type": "string",
+            "nullable": true
+          },
+          "guztira": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

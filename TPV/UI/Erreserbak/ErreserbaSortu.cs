@@ -223,7 +223,6 @@ namespace TPV
                 try
                 {
                     var helbidea = "http://192.168.10.5:5093/api/Erreserbak";
-                    // var helbidea = "http://localhost:5093/api/Erreserbak";
 
                     var payload2 = new
                     {
@@ -288,8 +287,8 @@ namespace TPV
         {
             try
             {
+                //mahaiaLista = await client.GetFromJsonAsync<List<Mahaiak>>("http://localhost:5093/api/Mahaiak");
                 mahaiaLista = await client.GetFromJsonAsync<List<Mahaiak>>("http://192.168.10.5:5093/api/Mahaiak");
-                // mahaiaLista = await client.GetFromJsonAsync<List<Mahaiak>>("http://localhost:5093/api/Mahaiak");
             }
             catch
             {
@@ -301,8 +300,8 @@ namespace TPV
         {
             try
             {
+                //erreserbaLista = await client.GetFromJsonAsync<List<Erreserbak>>("http://localhost:5093/api/Erreserbak");
                 erreserbaLista = await client.GetFromJsonAsync<List<Erreserbak>>("http://192.168.10.5:5093/api/Erreserbak");
-                // erreserbaLista = await client.GetFromJsonAsync<List<Erreserbak>>("http://localhost:5093/api/Erreserbak");
             }
             catch
             {
