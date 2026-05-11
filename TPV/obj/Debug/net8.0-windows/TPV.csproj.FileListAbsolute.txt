@@ -136,3 +136,7 @@ C:\Users\aranz\Desktop\GOIERRI\2MG\Erronka3\2MailaErronka1-CSharp-main\TPV\obj\D
 C:\Users\aranz\Desktop\GOIERRI\2MG\Erronka3\2MailaErronka1-CSharp-main\TPV\obj\Debug\net8.0-windows\TPV.pdb
 C:\Users\aranz\Desktop\GOIERRI\2MG\Erronka3\2MailaErronka1-CSharp-main\TPV\obj\Debug\net8.0-windows\TPV.genruntimeconfig.cache
 C:\Users\aranz\Desktop\GOIERRI\2MG\Erronka3\2MailaErronka1-CSharp-main\TPV\obj\Debug\net8.0-windows\ref\TPV.dll
+C:\Users\aranz\Desktop\2ErronkaTPV\TPV\obj\Debug\net8.0-windows\TPV.csproj.AssemblyReference.cache
+C:\Users\aranz\Desktop\2ErronkaTPV\TPV\obj\Debug\net8.0-windows\TPV.dll
+C:\Users\aranz\Desktop\2ErronkaTPV\TPV\obj\Debug\net8.0-windows\refint\TPV.dll
+C:\Users\aranz\Desktop\2ErronkaTPV\TPV\obj\Debug\net8.0-windows\TPV.pdb

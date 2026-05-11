@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aranz\\Desktop\\GOIERRI\\2MG\\Erronka3\\2MailaErronka1-CSharp-main\\TPV\\TPV.csproj": {}
+    "C:\\Users\\aranz\\Desktop\\2ErronkaTPV\\TPV\\TPV.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aranz\\Desktop\\GOIERRI\\2MG\\Erronka3\\2MailaErronka1-CSharp-main\\TPV\\TPV.csproj": {
+    "C:\\Users\\aranz\\Desktop\\2ErronkaTPV\\TPV\\TPV.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aranz\\Desktop\\GOIERRI\\2MG\\Erronka3\\2MailaErronka1-CSharp-main\\TPV\\TPV.csproj",
+        "projectUniqueName": "C:\\Users\\aranz\\Desktop\\2ErronkaTPV\\TPV\\TPV.csproj",
         "projectName": "TPV",
-        "projectPath": "C:\\Users\\aranz\\Desktop\\GOIERRI\\2MG\\Erronka3\\2MailaErronka1-CSharp-main\\TPV\\TPV.csproj",
+        "projectPath": "C:\\Users\\aranz\\Desktop\\2ErronkaTPV\\TPV\\TPV.csproj",
         "packagesPath": "C:\\Users\\aranz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aranz\\Desktop\\GOIERRI\\2MG\\Erronka3\\2MailaErronka1-CSharp-main\\TPV\\obj\\",
+        "outputPath": "C:\\Users\\aranz\\Desktop\\2ErronkaTPV\\TPV\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
