@@ -25,7 +25,7 @@
     <Compile Update="UI\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="UI\Zerbitzuak2\ZerbitzuenEgoera.cs">
+    <Compile Update="UI\Zerbitzuak\ZerbitzuenEgoera.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="UI\Menuak\SukaldariMenua.cs">
@@ -34,10 +34,10 @@
     <Compile Update="UI\Menuak\ZerbitzariMenua.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="UI\Zerbitzuak2\ZerbitzuaHasi.cs">
+    <Compile Update="UI\Zerbitzuak\ZerbitzuaHasi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="UI\Zerbitzuak2\ZerbitzuaKudeatu.cs">
+    <Compile Update="UI\Zerbitzuak\ZerbitzuaKudeatu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="UI\PlaterenOsagaiak\PlaterenOsagaiakIkusi.cs">
